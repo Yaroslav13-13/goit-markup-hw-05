@@ -679,9 +679,6 @@ a {
 }
 
 .modal-icons {
-  /* position: absolute;
-  left: 0;
- transform: translateY(-50%); */
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
@@ -768,6 +765,16 @@ a {
   }
 }
 
+/* .terms-svg { */
+/* display: inline-block; */
+/* margin-left: 0; */
+/* background-color: #fff; */
+/* } */
+
+.modal-checkbox {
+  padding-bottom: 0;
+}
+
 .subscribe-subtitle {
   font-weight: 500;
   font-size: 16px;
@@ -783,7 +790,7 @@ a {
   gap: 24px;
 }
 
-f .footer-input {
+.footer-input {
   background-color: transparent;
   border: 1px solid #ffffff;
   border-radius: 4px;
