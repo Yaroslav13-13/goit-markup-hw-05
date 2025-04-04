@@ -736,6 +736,11 @@ a {
   overflow: hidden;
 }
 
+.modal-check:checked {
+  width: 16px;
+  height: 16px;
+}
+
 .label-terms {
   font-size: 12px;
   line-height: 1.17;
