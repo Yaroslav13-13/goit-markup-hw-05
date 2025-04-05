@@ -14,7 +14,7 @@
     "editor.find.history": "workspace",
     "editor.find.loop": true,
     "editor.find.seedSearchStringFromSelection": "always",
-    "editor.fontSize": 14,
+    "editor.fontSize": 10,
     "editor.formatOnPaste": false,
     "editor.formatOnSaveMode": "file",
     "diffEditor.diffAlgorithm": "advanced",
