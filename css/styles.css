@@ -779,10 +779,10 @@ margin-right: 8px;
     margin-right: 8px;
 }
 
-.modal-check:checked+.terms-span {
+.modal-check:checked+.label-terms span{
   background-color:#404bbf;;
-  border: none;
-  fill: #FFFFFF;
+  /* border: none; */
+  /* fill: #FFFFFF; */
 }
 
 /* .terms-svg { */
