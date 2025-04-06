@@ -579,6 +579,8 @@ a {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 72px 24px 24px 24px;
 }
 
 .is-open {
@@ -597,6 +599,8 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 24px;
+  box-shadow:0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -618,9 +622,15 @@ a {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .button-modal-close:hover{ */
-/* background-color: #404BBF; */
-/* } */
+.button-modal-close:hover{
+  background-color: #404bbf;
+  border: none;
+}
+
+.button-modal-close:focus{
+  background-color: #404bbf;
+  border: none;
+}
 
 .text-modal {
   padding-top: 72px;
@@ -654,7 +664,16 @@ a {
 }
 
 .svg-button-close {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: #2e2f42;
+}
+
+.svg-button-close:hover{
+  fill: #ffffff;
+}
+
+.svg-button-close:focus{
+  fill: #ffffff;
 }
 
 /* .modal-input:required {
@@ -677,6 +696,7 @@ a {
 
 .modal-field {
   margin-bottom: 8px;
+  
 }
 
 .modal-wrapper {
@@ -837,7 +857,7 @@ margin-right: 8px;
   margin: 0 auto;
   border-radius: 4px;
   border: none;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   padding: 8px 24px;
   display: flex;
