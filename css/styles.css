@@ -816,14 +816,18 @@ margin-right: 8px;
 
 .modal-check:checked+.label-terms span{
   background-color:#404bbf;;
-  /* border: none; */
-  /* fill: #FFFFFF; */
+  border: none;
+  fill: #F4F4FD;;
 }
 
 .terms-svg {
 display: inline-block;
 margin-left: 0;
 background-color: #fff;
+}
+
+.terms-link{
+  color: #4d5ae5;;
 }
 
 .modal-checkbox {
