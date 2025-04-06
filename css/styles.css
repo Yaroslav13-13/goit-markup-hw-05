@@ -723,6 +723,10 @@ modal-field-coment{
   margin-bottom: 16px;
 }
 
+.modal-field:nth-child(4){
+  margin-bottom: 16px !important;;
+}
+
 .modal-icons {
   left: 16px;
   top: 50%;
