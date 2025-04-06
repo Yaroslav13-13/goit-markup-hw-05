@@ -633,7 +633,7 @@ a {
 }
 
 .text-modal {
-  padding-top: 72px;
+  padding-top: 0px;
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
@@ -672,11 +672,11 @@ a {
   fill: #2e2f42;
 }
 
-.svg-button-close:hover{
+.button-modal-close:hover .svg-button-close{
   fill: #ffffff;
 }
 
-.svg-button-close:focus{
+.nav-link.current:focus .svg-button-close{
   fill: #ffffff;
 }
 
@@ -687,6 +687,11 @@ a {
 .modal-label:placeholder {
   background-color: #4D5AE5;
 }
+
+.modal{
+  padding: 72px 24px 24px 24px;
+}
+
 
 .modal-label {
   display: block;
@@ -825,6 +830,10 @@ background-color: #fff;
   padding-bottom: 0;
 }
 
+.subscribe-btn{
+  margin-left: 16px;
+}
+
 .subscribe-subtitle {
   font-weight: 500;
   font-size: 16px;
@@ -876,7 +885,3 @@ background-color: #fff;
   align-items: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   gap: 16px;
-  
-  .subscribe-btn{
-    margin-left: 16px;
-  }
