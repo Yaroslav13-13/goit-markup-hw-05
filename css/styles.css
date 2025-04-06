@@ -672,13 +672,19 @@ a {
   fill: #2e2f42;
 }
 
-.button-modal-close:hover .svg-button-close{
-  fill: #ffffff;
-}
+.button-modal-close:hover .svg-button-close,  
+.button-modal-close:focus .svg-button-close {  
+    fill: #ffffff;  
+}  
 
-.nav-link.current:focus .svg-button-close{
-  fill: #ffffff;
-}
+/*  */
+/* .button-modal-close:hover .svg-button-close{ */
+  /* fill: #ffffff; */
+/* } */
+/*  */
+/* .nav-link.current:focus .svg-button-close{ */
+  /* fill: #ffffff; */
+/* } */
 
 /* .modal-input:required {
   background-color: blueviolet;
@@ -702,15 +708,10 @@ a {
   margin-bottom: 4px;
 }
 
-.modal-form {
-  
-}
-
 .modal-field {
   margin-bottom: 8px;
   line-height: 1.17;
   display: block;
-  margin-bottom: 16px;
 }
 
 .modal-wrapper {
