@@ -719,6 +719,10 @@ a {
   
 }
 
+modal-field-coment{
+  margin-bottom: 16px;
+}
+
 .modal-icons {
   left: 16px;
   top: 50%;
@@ -818,7 +822,7 @@ margin-right: 8px;
 .modal-check:checked+.label-terms span{
   background-color:#404bbf;;
   border: none;
-  fill: #F4F4FD;;
+  fill: #F4F4FD;
 }
 
 .terms-svg {
