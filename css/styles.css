@@ -696,7 +696,8 @@ a {
 
 .modal-field {
   margin-bottom: 8px;
-  
+  line-height: 1.17;
+  display: block;
 }
 
 .modal-wrapper {
