@@ -719,12 +719,12 @@ a {
   
 }
 
-modal-field-coment{
-  margin-bottom: 16px;
-}
+/* modal-field-coment{ */
+  /* margin-bottom: 16px; */
+/* } */
 
 .modal-field:nth-child(4){
-  margin-bottom: 16px !important;;
+  margin-bottom: 16px !important;
 }
 
 .modal-icons {
@@ -771,7 +771,13 @@ modal-field-coment{
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin: 0 auto;
+  border-radius: 4px;
 }
+
+.send-btn:hover{
+  
+}
+
 
 .visually-hidden {
   position: absolute;
@@ -832,7 +838,6 @@ margin-right: 8px;
 .terms-svg {
 display: inline-block;
 margin-left: 0;
-background-color: #fff;
 }
 
 .terms-link{
