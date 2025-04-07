@@ -859,12 +859,12 @@ margin-left: 0;
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
-  margin-left: 24px;
+  /* margin-left: 24px; */
 }
 
 .footer-subscribe {
   display: flex;
-  gap: 24px;
+  /* gap: 24px; */
 }
 
 .footer-input {
