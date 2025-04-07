@@ -774,6 +774,12 @@ a {
   border-radius: 4px;
 }
 
+.send-btn:hover,
+.send-btn:focus {
+  background-color: #404bbf;
+  color: #404bbf;
+}
+
 .send-btn:hover{
   
 }
@@ -882,6 +888,26 @@ margin-left: 0;
   color: #ffffff;
 }
 
+.footer-submit-btn:hover,
+.footer-submit-btn:focus{
+  background-color: #404bbf;
+  color: #404bbf;
+}
+
+/* .footer-submit-btn:hover .subscribe-btn { */
+  /* background-color: #404bbf; */
+    /* fill404bbf; */
+/* } */
+/* .footer-submit-btn:focus+.subscribe-btn{ */
+  /* background-color: #404bbf; */
+    /* color: #404bbf; */
+/* } */
+/* .subscribe-btn:hover, */
+/* .subscribe-btn:focus{ */
+/* background-color: #404bbf; */
+  /* color: #404bbf; */
+/* } */
+
 .footer-submit-btn {
   font-weight: 500;
   font-size: 16px;
@@ -903,3 +929,10 @@ margin-left: 0;
   align-items: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   gap: 16px;
+
+  
+
+
+
+
+
